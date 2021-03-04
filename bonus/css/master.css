@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 10%;
+    grid-template-rows: 10%;
+}
+
+.container div {
+    
+}
